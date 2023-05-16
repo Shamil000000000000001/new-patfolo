@@ -1,0 +1,188 @@
+#container {
+	max-width: 1280px;
+}
+
+header {
+	background: radial-gradient(
+		100% 215.42% at 0% 0%,
+		#5b483a 0%,
+		#262425 100%
+	);
+}
+.header {
+	display: flex;
+}
+.logo h3 {
+	margin-left: 20px;
+	color: rgba(241, 205, 179, 1);
+}
+.logo p {
+	margin-left: 20px;
+	color: rgba(255, 255, 255, 1);
+}
+nav ul {
+	display: flex;
+	margin-left: 500px;
+}
+.link ul li {
+	list-style: none;
+	margin-left: 35px;
+	display: flex;
+	color: rgba(250, 250, 250, 1);
+}
+.title {
+	margin-top: 150px;
+	margin-left: 20px;
+	color: white;
+}
+.button {
+	margin-top: 40px;
+	background-color: rgb(215, 212, 212);
+	width: 100px;
+	border: 1px solid black;
+	padding: 15px 45px;
+	border-radius: 45px;
+}
+.button:hover {
+	transition-timing-function: ease-in 1s;
+	background-color: rgba(241, 205, 179, 1);
+}
+.button a {
+	text-decoration: none;
+	color: rgba(41, 41, 41, 1);
+}
+.dog {
+	display: flex;
+}
+.header2 {
+	margin-top: 130px;
+	display: flex;
+}
+/*2 colon*/
+.about {
+	margin-top: 120px;
+	height: 588px;
+	display: flex;
+}
+.pet img {
+	width: 300px;
+	height: 400px;
+	margin-left: 215px;
+}
+.text {
+	width: 430px;
+	margin-top: 40px;
+	margin-left: 120px;
+	color: rgba(76, 76, 76, 1);
+}
+/*3 colon*/
+
+.good {
+	width: 1280px;
+	background-color: rgba(246, 246, 246, 1);
+}
+.frend {
+	text-align: center;
+	font-size: 48px;
+}
+.footo {
+	margin-left: 100px;
+}
+.footo img {
+	width: 270px;
+	height: 270px;
+}
+.button2 {
+	margin-left: 30px;
+	margin-top: 40px;
+	background-color: rgb(215, 212, 212);
+	width: 100px;
+	border: 1px solid black;
+	padding: 15px 45px;
+	border-radius: 45px;
+}
+.button2 a {
+	text-decoration: none;
+	color: rgba(41, 41, 41, 1);
+}
+
+.button2:hover {
+	background-color: rgba(241, 205, 179, 1);
+	transition-timing-function: ease-in 1s;
+}
+.cat {
+	display: flex;
+}
+.button3 {
+	border-radius: 45px;
+	margin-top: 60px;
+	margin-left: 450px;
+	background-color: rgb(215, 212, 212);
+	width: 250px;
+	padding: 20px;
+}
+.button3 a {
+	text-decoration: none;
+	padding: 15px 45px 15px 45px;
+}
+.button3:hover {
+	background-color: rgba(241, 205, 179, 1);
+	transition-timing-function: ease-in 1s;
+}
+/*4 colon*/
+.min-logo {
+	max-width: 1280px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 127px;
+	gap: 120px;
+	justify-content: center;
+}
+.pet-logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+/*5-colon*/
+.card-img {
+	display: flex;
+	background: rgba(246, 246, 246, 1);
+}
+.card-piture {
+	margin: 91px 110px;
+}
+.credit-card {
+	display: flex;
+	background: rgba(241, 205, 179, 1);
+	border-radius: 15px;
+}
+.credit-card{
+padding: 10px;
+
+}
+.credit-card img{
+margin: 10px;
+
+}
+/*footer*/
+
+.mail-phone {
+	display: flex;
+	margin: 10px;
+}
+.information {
+	width: 30%;
+	float: left;
+}
+.transport {
+	width: 30%;
+	float: left;
+}
+
+.picture img{
+margin-top: 30px;
+margin-left: 100px;
+
+}
